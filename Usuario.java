@@ -26,11 +26,11 @@ class Usuario implements IAutenticacao(){
 		usuarios.add(new Usuario("Professor1", Professor));
 		usuarios.add(new Usuario("Professor2", Professor));
 		usuarios.add(new Usuario("Aluno1", Aluno));
-						usuarios.add(new Usuario("Aluno2", Aluno));
-						usuarios.add(new Usuario("Aluno3", Aluno));
-						usuarios.add(new Usuario("Aluno4", Aluno));
-						usuarios.add(new Usuario("Aluno5", Aluno));
-						usuarios.add(new Usuario("Turma1", Turma));
+		usuarios.add(new Usuario("Aluno2", Aluno));
+		usuarios.add(new Usuario("Aluno3", Aluno));
+		usuarios.add(new Usuario("Aluno4", Aluno));
+		usuarios.add(new Usuario("Aluno5", Aluno));
+		usuarios.add(new Usuario("Turma1", Turma));
 												
 	}
 
