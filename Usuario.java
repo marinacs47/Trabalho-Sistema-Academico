@@ -23,4 +23,9 @@ class Usuario implements IAutenticacao(){
 	public Usuario obter(String login, String senha){
 		
 	}
+
+@Override
+	public boolean autenticar(String login, String senha){
+		return this.login.equals(login) && this.senha.equals(senha);
+	}  
 }
