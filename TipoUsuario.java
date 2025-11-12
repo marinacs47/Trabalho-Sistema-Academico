@@ -5,7 +5,7 @@ import java.util.ArrayList;
 
 public class TipoUsuario {
 	private String nome;
-	private List<Funcionalidade> funcionalidades = new arrayList<>;
+	private List<Funcionalidade> funcionalidades = new ArrayList<>();
 
 	public TipoUsuario(String nome) {
 		this.nome = nome;
@@ -22,7 +22,5 @@ public class TipoUsuario {
 	public void definirFuncionalidades(){
 
 	}
-
-
 
 }
