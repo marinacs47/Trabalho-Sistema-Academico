@@ -1,4 +1,4 @@
-package modelo.sistema_academico;
+package sistema_academico.modelo;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -40,3 +40,4 @@ public class Professor extends Pessoa {
     }
     
 }
+
