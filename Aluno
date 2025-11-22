@@ -11,6 +11,7 @@ public class Aluno extends Pessoa {
     public Aluno(String matricula,String nome) {
         super(nome);
         this.matricula = matricula;
+        alunos.add(this);
     }
     
     public String getMatricula(){
