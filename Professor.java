@@ -10,6 +10,7 @@ public class Professor extends Pessoa {
     public Professor(int siape,String nome){
         super(nome);
         this.siape = siape;
+        professores.add(this);   
     }
     
     public int getSiape(){
@@ -40,5 +41,6 @@ public class Professor extends Pessoa {
     }
     
 }
+
 
 
